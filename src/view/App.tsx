@@ -46,7 +46,9 @@ import { Counter } from "./Counter";
 
 export const App = () => (
   <div className="app">
-    <TopBar>React Components are state machines</TopBar>
+    <TopBar>
+      <h1>React state </h1>
+    </TopBar>
     <h1 className="headline white-text"> {"<<<< Stateful Bookstore >>>>"}</h1>
     <Counter item="Book" initial={6} />
     <Counter item="Customer" initial={2} />
